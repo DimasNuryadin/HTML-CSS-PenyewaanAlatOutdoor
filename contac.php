@@ -27,7 +27,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link" href="index.php">HOME</a>
+            <a class="nav-item nav-link" href="index.html">HOME</a>
             <a class="nav-item nav-link active" href="contac.php">CONTAC</a>
             <a class="nav-item nav-link" href="knowledge.php">KNOWLEDGE</a>
             <form class="form-inline">
