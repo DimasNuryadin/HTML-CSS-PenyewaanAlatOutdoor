@@ -14,7 +14,7 @@
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css">
 
-    <title>Knowledge</title>
+    <title>Sign</title>
   </head>
   <body>
 
@@ -27,9 +27,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link" href="index.html">HOME</a>
-            <a class="nav-item nav-link" href="contac.php">CONTAC</a>
-            <a class="nav-item nav-link active" href="knowledge.php">KNOWLEDGE</a>
+            <a class="nav-item nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="contac.html">CONTAC</a>
+            <a class="nav-item nav-link" href="knowledge.html">KNOWLEDGE</a>
             <form class="form-inline">
               <div class="search-box">
                 <input class="search-txt" type="text" placeholder="Cari apa ?">
@@ -44,26 +44,35 @@
         </div>
       </div>
     </nav>
-    <!-- Akhir Navbar -->
 
     <!-- Jumbotron -->
-    <div>
-      <div class="container">
-        <h3><b>Bagaimana Cara Memesan ?</b></h3>
-          <ol>
-            <li>Login atau Sign Up Ke akun anda di website</li>
-            <li>Pilih produk yang anda inginkan</li>
-            <li>Di halaman produk, pilih berapa lama anda ingin menyewa</li>
-            <li>Klik <i>add to cart</i></li>
-            <li>Ulangi langkah tersebut jika ingin menyewa satu produk</li>
-            <li>Klik ikon keranjang, dan tinjau kembali saat <i></i>checkout</i></li>
-            <li>Masukan alamat pengiriman</li>
-            <li>Pilih metode  pengiriman dan pembayaran yang ada dan klik <i>next</i> </li>
-            <li>Klik selesai</li>
-          </ol>
-        <h3><b>Syarat dan Ketentuan</b></h3>
-          <p class="syarat">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container loginbox">
+        <h1>SIGN</h1>
+      	<form method="post">
+      		<div>
+      			<input class="textbox" type="text" placeholder="Username"/>
+      		</div>
+      		<div>
+      			<input class="textbox" type="text" placeholder="Email"/>
+      		</div>
+          <div>
+      			<input class="textbox" type="text" placeholder="Phone Number"/>
+      		</div>
+          <div>
+      			<input class="textbox" type="password" placeholder="Password"/>
+      		</div>
+          <div>
+      			<input class="textbox" type="password" placeholder="Confirm Password"/>
+      		</div>
+          <div>
+            <p>Masukan Foto KTP</p>
+      			<input class="textbox ktp" type="file"/>
+      		</div>
+      		<div>
+      			<input class="btn1" type="submit" value="SIGN"/>
+          </div>
+        </div>
     </div>
 
 
