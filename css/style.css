@@ -84,7 +84,7 @@ body {
 /* Jumbotron */
 .jumbotron {
   margin-top: 7px;
-  background-image: url(/assets/img/camp.jpg);
+  background-image: url(../assets/img/camp.jpg);
   background-size: cover;
   height: 325px;
   width: 100%;
